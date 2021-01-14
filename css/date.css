@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Potta+One&display=swap');
+body{
+    background-color: #bde0fe;
+}
+main{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 60em;
+    justify-content: center;
+}
+header {
+    background-color:#ffafcc ;
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow:0px 0px 4px 4px #888 ;
+}
+h1, h2 {
+    font-family: 'Potta One', cursive;
+}
+img{
+    float: right;
+    margin-top: -3em;
+    border-radius: 5px;
+    box-shadow:0px 0px 4px 4px #fbf2c0;
+}
+
+section{
+    font-family: 'Inconsolata', monospace;
+    background-color:#a2d2ff;
+    padding: 0 1em 0 1em;
+    box-shadow: 0px 6px 4px 4px #888 ;
+}
+a {
+   color: black;
+   text-decoration: none;
+}
+a:hover{
+    color:white;
+}
+footer{
+    font-family: 'Inconsolata', monospace;
+    padding: 10px;
+    background-color: #cdb4db;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow:0px 6px 4px 4px #888 ;
+    text-align: center;
+}
+footer p{
+    margin: 0px;
+}
+span {
+    font-weight: 700;
+}
+#OutputDate{
+    color: darkslateblue;
+}
