@@ -9,7 +9,7 @@
   .info,
   .item {
     box-sizing: border-box;
-    width: 30wv;
+    width: 30vw;
   }
   #hicks-law {
       width: 25em;
