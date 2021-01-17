@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Potta+One&display=swap');
+body {
+    margin: 80px;
+    background-color: #bde0fe;
+    box-sizing: border-box;
+}
+.return{
+    margin: 15px;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-left: 10px;
+    width:125px;
+    height: 25px;
+    border-radius: 6px;
+    border: solid #999;
+    background-color: #cec189ef;
+    box-shadow: none;
+}
+.return:hover{  
+    background-color: #999;
+}
+
+header {
+    padding: 10px;
+    background-color:#ffafcc ;
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow:0px 4px 4px 4px #888 ;
+}
+h1 {
+    font-family: 'Potta One', cursive;
+}
+.title {
+    font-family: 'Potta One', cursive;
+}
+main{
+    box-sizing: border-box;
+}
+#hicks-law, #fitts-law, #parc-alignment {
+    background-color:#a2d2ff;
+    padding: 0 1em 0 1em;
+    box-shadow: 0px 6px 4px 4px #888 ;
+}
+h3, p, a{
+    font-family: 'Inconsolata', monospace;
+}
+section{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-gap: 3em;
+    justify-items: center;
+}
+img{
+    box-sizing: content-box;
+    width: 100%;
+}
+.info{
+    margin: 5%;
+    box-shadow: none;
+}
+a {
+    color: black;
+    text-decoration: none;
+ }
+section a:hover{
+    padding: 3px 50px 3px 0px;
+    background-color: #ffafcc;
+}
+.footer-link:hover{
+     color:white;
+ }
+ footer{
+    margin-top: 18px;
+    font-family: 'Inconsolata', monospace;
+    padding: 10px;
+    background-color: #cdb4db;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow:0px 6px 4px 4px #888 ;
+    text-align: center;
+}
+footer p{
+    margin: 0px;
+}
+span {
+    font-weight: 700;
+}
+#OutputDate{
+    color: darkslateblue;
+}

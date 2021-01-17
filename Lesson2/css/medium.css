@@ -1,0 +1,28 @@
+@media only screen and (min-width:620px){
+    section{
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+    .info, .item{
+        box-sizing: border-box;
+        width: 40vw;        
+    }   
+    #hicks-law{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    #fitts-law{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    #parc-alignment{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    img{
+        width: 100%;
+        box-sizing: border-box;
+    }
+}   
