@@ -1,0 +1,16 @@
+@media only screen and (min-width:720px){
+    html{
+        display: grid;
+        grid-template-columns: 800px;
+        justify-content: center;
+    }
+    body{
+        max-width: 1500px;
+        
+        
+    }
+    nav ul{
+        padding-left: 1em;
+
+    }
+}

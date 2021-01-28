@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans&display=swap');
+html, header {
+    background-color: 	#236e96;
+}
+
+body{
+    margin: 8px;
+}
+nav img{
+    width: 100px;
+    margin: 0.5rem;
+    display: flex;
+    float: left;
+}
+nav{
+    background-color: #15b2d3;
+    text-align: center;
+}
+
+nav li {
+    padding: 15px;
+    float: left;
+    list-style: none;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+nav li:hover{
+    background-color: #ffd700;
+}
+
+main{
+    padding: 1rem;
+    clear: both;
+    background-color: white;
+}
+
+header{
+    color:#ffd700;
+    text-align: center;
+}
+header, h3, nav li{
+    font-family: 'Bebas Neue', cursive;
+}
+h3{
+    margin: 3px;
+    padding:7px;
+    background-color:	#ffb4cd;
+    font-size: 5vmax;
+}
+main li, p{
+    font-family: 'Noto Sans', sans-serif;
+}
+footer{
+    padding: 10px;
+    text-align: center;
+    background-color: #f3872f;
+    border: solid #ffd700;
+    font-family: 'Bebas Neue', cursive;
+}
+footer p{
+    margin: 0px;
+}
+/*-----Target-audience CSS-----*/
+img{
+    width: 350px;
+}
+
+/*-----Color-scheme CSS-----*/
+table, td{
+    border: 2px solid black;
+}
+table{
+    margin: 10px;
+    border-collapse: collapse;
+}
+td{
+    width: 100px;
+    padding: 5px;
+}
+td p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.p-yellow{
+    background-color:#236e96 ;
+    color: #ffd700;
+    font-family: 'Bebas Neue', cursive;
+}
+td #sample-h1{
+    font-size: 30px;
+}
+td #sample-h2{
+    font-size: 25px;
+}
+.blue1-block{
+    background-color:#236e96 ;
+}
+.blue2-block{
+    background-color: #15b2d3;
+}
+.yellow-block{
+    background-color:#ffd700 ;
+}
+.orange-block{
+    background-color:#f3872f ;
+}
+.pink-block{
+    background-color:#ffb4cd ;
+}
+/*-----Typography CSS-----*/
+.font1, .font2{
+    font-size: 30px;
+}
+.font1{
+    font-family: 'Bebas Neue', cursive;
+}
+.font2{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
