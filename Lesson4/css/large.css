@@ -1,0 +1,35 @@
+@media only screen and (min-width: 64em) {
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+
+
+  
+nav {
+  background: rgb(21,178,211); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgb(21,178,211) 0%, rgb(0,65,158) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgb(21,178,211) 0%,rgb(0,65,158) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgb(21,178,211) 0%,rgb(0,65,158) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#15b2d3', endColorstr='#00419e',GradientType=0 ); /* IE6-9 */
+  
+      }
+      nav button {
+          display: none;
+      }
+      nav ul li {
+        flex: 1 1 100%;
+          margin: 0 5px 0 5px;
+          float: left;
+      }
+      nav ul li a {
+          border: none;
+          border-right: 1px solid rgba(0, 0, 0,0);;
+          padding: .8rem 1rem;    
+      }
+  
+      nav ul.hide {
+          display: flex;
+      }
+    }
