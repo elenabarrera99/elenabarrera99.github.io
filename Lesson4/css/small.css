@@ -84,8 +84,7 @@ main {
     box-sizing: border-box;
     justify-content: center;
 }
-
-h2{
+main h2 {
     text-align: center;
 }
 
