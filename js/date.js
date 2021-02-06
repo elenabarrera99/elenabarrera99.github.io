@@ -21,7 +21,7 @@ let months = [
     "November",
     "December"
 ]
-let d = new Date();
+let d = new Date(document.lastModified);
 let dayName = daynames[d.getDay()];
 let monthName = months[d.getMonth()];
 let fullDate = dayName + ", " + monthName + " " + d.getDate() + ", " + d.getFullYear();
