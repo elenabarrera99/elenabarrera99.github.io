@@ -17,6 +17,23 @@ header {
   margin: 0 auto;
   padding: 10px;
 }
+header .pancakesBanner h3 {
+ 
+  box-sizing: border-box;
+}
+#pancakesBanner {
+  display: none;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  margin: 0;
+  padding: .1rem;
+  max-width: 100%;
+  height: 70px;
+  background-color: #ffd700;
+  z-index: 1;
+
+}
 header,
 h2,
 h3,
@@ -147,10 +164,9 @@ h2 {
     display:flex;
     justify-content: space-between;
     
+    
 }
 section .forecast li {
-    margin: 0;
-    padding-left: .6em;
   text-align: center;
   color: #000;
   border-left: 1px solid rgba(0, 0, 0, 0.3);

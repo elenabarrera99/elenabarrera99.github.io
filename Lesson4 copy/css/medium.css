@@ -52,7 +52,7 @@
         
     }
     section .forecast li {
-      padding-left: .8em;
+        padding-left: 1em;
       text-align: center;
       color: #000;
       border-left: 1px solid rgba(0, 0, 0, 0.3);
