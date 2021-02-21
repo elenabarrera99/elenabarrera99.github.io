@@ -65,4 +65,15 @@
     display: table;
     clear: both;
 }
+/*************Lesson7 CSS****************************************/
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 280px);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 0;
+    justify-items: center;
+  }
+  .img-shadow {
+    width: 260px;
+  }
 }

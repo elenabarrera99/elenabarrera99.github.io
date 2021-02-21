@@ -224,3 +224,45 @@ footer {
 footer p {
   margin: 0px;
 }
+
+/*************Lesson7 CSS****************************************/
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 0;
+}
+
+.img-shadow {
+  width: 300px;
+  box-shadow: 2px 2px 4px #ccc;
+}
+
+img {
+  max-width: fit-content;
+
+}
+
+figure figcaption {
+  padding: 4px;
+}
+
+figure:hover {
+  box-shadow: 4px 6px 4px #888;
+}
+
+/*****Lazy Load*****/
+img[data-src] {
+  filter: blur(0.2em);
+}
+
+img {
+  filter: blur(0em);
+    transition: filter 0.1s; 
+}
+
+
+
+
+
+

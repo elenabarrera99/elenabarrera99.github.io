@@ -2,7 +2,7 @@
 
 const imgOptions = {
   threshold: 1,
-  rootmargin: "0px 0px -300px 0px"
+  rootmargin: "0px 0px -500px 0px"
 };
 
 
@@ -17,7 +17,6 @@ const imgObserver = new IntersectionObserver((entries, imgObserver) => {
   })
 
 }, imgOptions)
-
  
 let imagesToLoad = document.querySelectorAll('img[data-src]');
 const loadImages = (image) => {
