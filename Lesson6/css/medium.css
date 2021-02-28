@@ -76,4 +76,14 @@
   .img-shadow {
     width: 260px;
   }
+
+  /****Lesson8*****/
+
+form {
+    display: grid;
+    justify-content: center;
+
 }
+
+}
+
