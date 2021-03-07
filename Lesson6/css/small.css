@@ -37,6 +37,7 @@ header .pancakesBanner h3 {
 header,
 h2,
 h3,
+h4,
 nav li {
   font-family: "Bebas Neue", cursive;
 }
@@ -322,6 +323,79 @@ h2.thanks {
 main.thanks {
   padding: 20px;
   
+}
+
+/*******Lesson9 Home page*************/
+main#card div.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 6px;
+  background-color: #15b3d38e;
+  justify-items: center;
+}
+div.cards section {
+  border: solid 2px #ffd700;
+  text-align: center;
+  width: 350px;
+  padding: 5px;
+  padding-bottom: 12px;
+  background-color: white;
+  margin: 10px 0 5px 0;
+}
+div.cards img {
+  width: 250px;
+  box-shadow: 0 0 10px 4px #777;
+  margin-top: 20px;
+
+}
+@media only screen and (min-width: 35em){
+  main#card  div.cards {
+     display: grid;
+     grid-template-columns: 1fr;
+     
+  }
+  div.cards section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    margin: 10px 0 10px 0;
+    width: 550px;
+
+  }
+  
+  section:nth-child(2) .image{
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  section:nth-child(2) .text{
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+ 
+  
+}
+
+@media only screen and (min-width: 64em){
+  main#card div.cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+  }
+  div.cards section {
+    display: block;
+    margin: 10px 0 10px 0;
+    width: 280px;
+
+  }
+}
+
+h4 {
+  margin: 0;
+}
+div.cards section p {
+  margin: 0;
+  padding: 5px;
+  font-size: 15px;
 }
 
 
