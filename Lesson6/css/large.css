@@ -18,7 +18,7 @@
 
   }
   #box {
-    position:absolute;
+    position: absolute;
     top: 200px;
     background-color: rgba(255, 255, 255, 0.644);
     width:240px;
@@ -61,7 +61,7 @@ nav {
       }
     
     .sec-1 img{
-      height: 350px;
+      height: 100%;
     }
     .sec-3 {
       display: grid;

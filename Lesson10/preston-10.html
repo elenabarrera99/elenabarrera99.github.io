@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="../Lesson6/css/normalize.css">
+    <link rel="stylesheet" href="../Lesson6/css/small.css">
+    <link rel="stylesheet" href="../Lesson6/css/medium.css">
+    <link rel="stylesheet" href="../Lesson6/css/large.css">
+    <link rel="shortcut icon" href="../Lesson6/favicon.ico">
     <title>RW Preston</title>
   </head>
   <body>
@@ -31,45 +31,35 @@
       </ul>
     </nav>
     <main>
-      <div id="box">
-            <p>Weather Summary</p>
-            <p>Currently: Raiy</p>
-            <p>High: <span id="temp">41</span><span>°F</span></p>
-            <p>Humidity: 95%</p>
-            <p>Wind Speed: <span id="speed">9</span><span> mph</span></p>
-            <p>Wind Chill: <span id="wcoutput">51°F</span></p>
-          </div>
   
         <section class="sec-1">
           <h2>Preston Idaho</h2>
           <picture>
-            <source media="(min-width: 560px) and (max-width: 1023px)" srcset="images/medium.jpg">
-            <source media="(min-width: 1024px)" srcset="images/large.jpg">
-            <img src="images/small.jpg" alt="preston-img">
+            <source media="(min-width: 560px) and (max-width: 1023px)" srcset="../Lesson6/images/medium.jpg">
+            <source media="(min-width: 1024px)" srcset="../Lesson6/images/large.jpg">
+            <img src="../Lesson6/images/small.jpg" alt="preston-img">
         </picture>
-        </section>   
+        </section>  
+
+        <div id="box">
+          <p>Weather Summary</p>
+          <p>Currently: <span id="current"></span></p>
+          <p>High: <span id="temp"></span>°F</p>
+          <p>Wind Chill: <span id="wcoutput"></span></p>
+          <p>Humidity: <span id="hum"></span>°F</p>
+          <p>Wind Speed: <span id="wspeed"></span> mph</p>
+          
+        </div>
       
   
         <section class="sec-2">
           <h3>Five Day Forecast</h3>
           <div class="forecast">
-            <ul>
-              <li><img src="images/sun.png">
-                  <p>Monday</p>
-              </li>
-              <li><img src="images/windy.png">
-                  <p>Tuesday</p>
-              </li>
-              <li><img src="images/cloudy (1).png">
-                  <p>Wednesday</p>
-              </li>
-              <li><img src="images/cloudy.png">
-                  <p>Thursday</p>
-              </li>
-              <li><img src="images/sun.png">
-                  <p>Friday</p>
-              </li>
-            </ul>
+            <p><span id="imageIcon1"></span><span id="dayofweek1"></span> <br> <span id="forecast1"></span>&deg;</p>
+            <p><span id="imageIcon2"></span><span id="dayofweek2"></span> <br> <span id="forecast2"></span>&deg;</p>
+            <p><span id="imageIcon3"></span><span id="dayofweek3"></span> <br> <span id="forecast3"></span>&deg;</p>
+            <p><span id="imageIcon4"></span><span id="dayofweek4"></span> <br> <span id="forecast4"></span>&deg;</p>
+            <p><span id="imageIcon5"></span><span id="dayofweek5"></span> <br> <span id="forecast5"></span>&deg;</p>
           </div>
         </section>
   
@@ -82,7 +72,7 @@
               Now the famous night rodeos are on July. If you want to see more please visit <a href="http://www.prestonrodeo.com/">prestonrodeo.com</a>
           </p>
           <div class="article-box">
-              <img src="images/preston-rodeo-img.jpg" alt="night-rodeo">
+              <img src="../Lesson6/images/preston-rodeo-img.jpg" alt="night-rodeo">
           </div>
         </article>
         
@@ -94,9 +84,9 @@
             <p>facebook: <a href="#">The Right Weather</a></p>
             <p>instagram: <a href="#">@the_Right_Weather</a></p>
             <div class="contact-img">
-                <img src="images/email.png" alt="email-icon">
-                <img src="images/facebook.png" alt="face-icon">
-                <img src="images/instagram.png" alt="insta-icon">
+                <img src="../Lesson6/images/email.png" alt="email-icon">
+                <img src="../Lesson6/images/facebook.png" alt="face-icon">
+                <img src="../Lesson6/images/instagram.png" alt="insta-icon">
             </div>
         </div> 
         <div class="map">
@@ -109,12 +99,13 @@
       <p>&copy;2021 | Elena M. Barrera | Mexico |<a>BYUI Online Learning</a></p>
       <br />
       <div id="date">
-       
+        <span id="OutputDate"></span>
       </div>
     </footer>
     <script src="../js/date.js"></script>
-    <script src="js/toggleMenu.js" ></script>
-    <script src="js/pancakesBanner.js"></script>
+    <script src="../Lesson6/js/toggleMenu.js" ></script>
+    <script src="../Lesson6/js/pancakesBanner.js"></script>
     <script src="../Lesson6/js/windchill.js"></script>
+    <script src="js/preston-weather.js"></script>
   </body>
 </html>

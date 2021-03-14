@@ -1,6 +1,7 @@
 
 let t = parseFloat(document.getElementById('temp').innerHTML);
-let s = parseFloat(document.getElementById('speed').innerHTML);
+let s = parseFloat(document.getElementById('wspeed').innerHTML);
+
 let result = calcWindChill(t, s);
 
 function calcWindChill(a, b) {

@@ -29,4 +29,4 @@ let fullDate = dayName + ", " + monthName + " " + d.getDate() + ", " + d.getFull
 document.getElementById('date').textContent = "Last Update: " + fullDate;
 
 let mod = new Date(document.lastModified);
-document.getElementById('OutputDate').textContent = mod;
+document.getElementById('OutputDate').innerHTML = mod;

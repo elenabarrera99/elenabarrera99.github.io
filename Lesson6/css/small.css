@@ -123,13 +123,8 @@ h2 {
 /*----Sections----**********************/
 #box {
   position: relative;
-  top: 340px;
   padding: 15px;
   
-}
-.sec-1{
-  position: relative;
-  bottom: 205px;
 }
 .sec-1 h2{
   padding: 10px;
@@ -168,7 +163,9 @@ h2 {
     
     
 }
-section .forecast li {
+section .forecast {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
   text-align: center;
   color: #000;
   border-left: 1px solid rgba(0, 0, 0, 0.3);
