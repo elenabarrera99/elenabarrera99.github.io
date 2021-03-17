@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="../Lesson6/favicon.ico">
+    <title>Document</title>
+</head>
+<body>
+    <div id="pancakesBanner"><h3>Saturday = Preston Pancakes in the Park! <br> 9:00 a.m. Saturday at the city park pavilion.</h3></div>
+    <header>
+      <img src="images/Logo-RW-png.png" alt="RW logo" />
+      <section>
+        <h1>The Right Weather</h1>
+        <h3 class="motto"><i>Be prepared anywhere you go...</i></h3>
+      </section>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776</button>
+      <ul id="primaryNav" class="hide">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="preston.html">Preston</a></li>
+        <li><a href="sodaSprings.html">Soda Springs</a></li>
+        <li><a href="fishHaven.html">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li class="active"><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <main class="main-grid">
+    <!-----pictures chart Start----->
+        <figure class="img-shadow" id="">
+            <picture>
+                <source media="(min-width: 560px) and (max-width: 1023px)" srcset="images/assets/p1-img2.jpg">
+                <source media="(min-width: 1024px)" srcset="images/assets/p1-img3.jpg">
+                <img data-src="images/assets/p1-img1.jpg" src="images/placeholder.png" alt="preston-elevation">
+            </picture>
+            <figcaption>Farmland and a View to Mountains Beyond</figcaption>
+        </figure>
+        <!-------div 2------->
+        <figure class="img-shadow" id="">
+            <picture>
+                <source media="(min-width: 560px) and (max-width: 1023px)" srcset="images/assets/p2-img2.jpg">
+                <source media="(min-width: 1024px)" srcset="images/assets/p2-img3.jpg">
+                <img data-src="images/assets/p2-img1.jpg" src="images/placeholder.png" alt="preston-cloudy">  
+            </picture>
+            <figcaption>Beautiful cloudy Preston view</figcaption>
+        </figure>
+        <!-------div 3------->
+        <figure class="img-shadow" id="">
+            <picture>
+                <source media="(min-width: 560px) and (max-width: 1023px)" srcset="images/assets/s1-img2.jpg">
+                <source media="(min-width: 1024px)" srcset="images/assets/s1-img3.jpg">
+                <img data-src="images/assets/s1-img1.jpg" src="images/placeholder.png" alt="Geyser-soda-spring">
+            </picture>
+            <figcaption>Amazing Gayzer on Soda Spring</figcaption>
+        </figure>
+        <!-------div 4------->
+        <figure class="img-shadow" id="">
+            <picture>
+                <source media="(min-width: 560px) and (max-width: 1023px)" srcset="images/assets/s2-img2.jpg">
+                <source media="(min-width: 1024px)" srcset="images/assets/s2-img3.jpg">
+                <img data-src="images/assets/s2-img1.jpg" src="images/placeholder.png" alt="mountain-resort">
+            </picture>
+            <figcaption>The Mountain Resort on Soda Springs</figcaption>
+        </figure>
+        <!-------div 5------->
+        <figure class="img-shadow" id="">
+            <picture>
+                <source media="(min-width: 560px) and (max-width: 1023px)" srcset="images/assets/f1-img2.jpg">
+                <source media="(min-width: 1024px)" srcset="images/assets/f1-img3.jpg">
+                <img data-src="images/assets/f1-img1.jpg" src="images/placeholder.png" alt="cabin">
+            </picture>
+            <figcaption>Beautiful custome cabin</figcaption>
+        </figure>
+        <!-------div 6------->
+        <figure class="img-shadow" id="">
+            <picture>
+                <source media="(min-width: 560px) and (max-width: 1023px)" srcset="images/assets/f2-img2.jpg">
+                <source media="(min-width: 1024px)" srcset="images/assets/f2-img3.jpg">
+                <img data-src="images/assets/f2-img1.jpg" src="images/placeholder.png" alt="Bear-ake">
+            </picture>
+            <figcaption>The Bear Lake Vacation</figcaption>
+        </figure>
+        <!-------div 7------->
+        <figure class="img-shadow" id="">
+            <picture>
+                <source media="(min-width: 560px) and (max-width: 1023px)" srcset="images/assets/sc1-img2.jpg">
+                <source media="(min-width: 1024px)" srcset="images/assets/sc1-img3.jpg">
+                <img data-src="images/assets/sc1-img1.jpg" src="images/placeholder.png" alt="raining">
+            </picture>
+            <figcaption>Rain in Preston Idaho</figcaption>
+        </figure>
+        <!-------div 8------->
+        <figure class="img-shadow" id="">
+            <picture>
+                <source media="(min-width: 560px) and (max-width: 1023px)" srcset="images/assets/sc2-img2.jpg">
+                <source media="(min-width: 1024px)" srcset="images/assets/sc2-img3.jpg">
+                <img data-src="images/assets/sc2-img1.jpg" src="images/placeholder.png" alt="sunny lake">
+            </picture>
+            <figcaption>A beautiful lake in a sunny day</figcaption>
+        </figure>
+        <!-------div 9------->
+        <figure class="img-shadow" id="">
+            <picture>
+                <source media="(min-width: 560px) and (max-width: 1023px)" srcset="images/assets/sc3-img2.jpg">
+                <source media="(min-width: 1024px)" srcset="images/assets/sc3-img3.jpg">
+                <img data-src="images/assets/sc3-img1.jpg" src="images/placeholder.png" alt="ski-resort">
+            </picture>
+            <figcaption>The wonderful Ski Resort</figcaption>
+        </figure>
+    </main>
+    <!-----pictures chart End----->
+    <footer>
+      <p>&copy;2021 | Elena M. Barrera | Mexico |<a>BYUI Online Learning</a></p>
+      <br />
+      <div id="date">
+        <span id="OutputDate"></span>
+      </div>
+    </footer>
+    <script src="../js/date.js"></script>
+    <script src="../Lesson6/js/toggleMenu.js"></script>
+    <script src="js/lazyload.js"></script>
+</body>
+</html>

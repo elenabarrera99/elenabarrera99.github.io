@@ -1,0 +1,398 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans&display=swap");
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+header {
+  background-color: #236e96;
+  margin: 0 auto;
+  padding: 10px;
+}
+header .pancakesBanner h3 {
+ 
+  box-sizing: border-box;
+}
+#pancakesBanner {
+  display: none;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  margin: 0;
+  padding: .1rem;
+  max-width: 100%;
+  height: 70px;
+  background-color: #ffd700;
+  z-index: 1;
+
+}
+header,
+h2,
+h3,
+h4,
+nav li {
+  font-family: "Bebas Neue", cursive;
+}
+header img {
+  width: 120px;
+  height: auto;
+}
+header {
+  display: flex;
+  margin-bottom: 8px;
+  padding: 5px 0;
+  align-items: left;
+  justify-content: left;
+}
+header section {
+  margin-left: 1em;
+  display: flex;
+  flex-direction: column;
+}
+header h1 {
+  margin: 0;
+  color: #ffd700;
+  text-shadow: 4px 4px #000;
+}
+
+section .motto {
+  margin: 0;
+  text-shadow: 2px 2px hsl(51, 40%, 50%);
+}
+
+/*----Nav CSS----**********************/
+nav button {
+  margin: 0.2rem 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.7rem;
+}
+nav {
+  background-color: #15b2d3;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.8rem 2%;
+  text-decoration: none;
+  color: #000;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+nav ul li.active a {
+  background-color: rgb(255, 228, 77);
+  color: #236e96;
+}
+nav ul li a:hover {
+  background-color: #ffd700;
+  color: #144e6d;
+}
+
+nav ul.hide {
+  display: none;
+}
+/*********************************************************/
+
+main {
+  padding: 0;
+  background-color: white;
+}
+main p, span {
+  font-family: "Noto Sans", sans-serif;
+}
+main h3,
+h2 {
+  background-color: #ffb4cd;
+  text-shadow: 2px 2px hsla(51, 89%, 68%, 0.904);
+  padding: 0.8rem 2%;
+}
+
+/*----Sections----**********************/
+#box {
+  position: relative;
+  padding: 15px;
+  
+}
+.sec-1 h2{
+  padding: 10px;
+  margin: 10px 0 0 0;
+}
+
+.sec-1 img {
+  margin-left: 40px;
+  padding: 0;
+  width: 100%;
+  height: 250px;
+}
+
+
+.sec-2 {
+  background-color: #ffb4cd;
+  margin: 10px;
+}
+.sec-2 h3 {
+  display: block;
+  margin: 15px 0 0 0;
+  text-align: center;
+  font-size: 25px;
+  background-color: hsl(340, 90%, 80%);
+}
+
+.sec-2 ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.forecast ul {
+    display:flex;
+    justify-content: space-between;
+    
+    
+}
+section .forecast {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  text-align: center;
+  color: #000;
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.forecast img {
+  width: 70px;
+  height: auto;
+}
+section.sec-3 {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+.contact {
+  padding: 0.6rem 2rem;
+  background-color: rgba(136, 136, 136, 0.219);
+  font-family: "Noto Sans", sans-serif;
+}
+.contact p a {
+  display: block;
+  text-decoration: none;
+}
+.contact-img {
+  display: none;
+}
+
+iframe {
+  width: 100%;
+  height: 85%;
+}
+/****************************************************************/
+article {
+  background-color: #15b3d33a;
+  margin: 5px;
+  padding: 5px;
+}
+
+article img {
+  width: 100%;
+  height: 350px;
+  border: solid #ffffff;
+}
+/**********************************/
+
+/*----Footer----**************************************/
+footer {
+  padding: 10px;
+  text-align: center;
+  background-color: #f3872f;
+  border: solid #ffd700;
+  font-family: "Bebas Neue", cursive;
+}
+footer p {
+  margin: 0px;
+}
+
+/*************Lesson7 CSS****************************************/
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 0;
+}
+
+.img-shadow {
+  width: 300px;
+  box-shadow: 2px 2px 4px #ccc;
+}
+
+img {
+  max-width: fit-content;
+
+}
+
+figure figcaption {
+  padding: 4px;
+}
+
+figure:hover {
+  box-shadow: 4px 6px 4px #888;
+}
+
+/*****Lazy Load*****/
+img[data-src] {
+  filter: blur(0.2em);
+}
+
+img {
+  filter: blur(0em);
+    transition: filter 0.1s; 
+}
+
+
+/****Lesson8*****/
+
+form {
+  padding: 30px;
+}
+
+form label.top {
+  display: block;
+  padding-top: 1rem;
+  color: black;
+  font-size: .8rem;
+}
+
+label.top input, label div, label select {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+  display: block;
+  padding: .75rem 0;
+  color: #555;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #ffd700;
+  color: #236e96;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+}
+
+form label.top input:required {
+  border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+  border-left: #15b2d3 solid 6px;
+}
+
+h2.thanks {
+  text-align: center;
+  margin: 0;
+}
+
+/****thanks page******/
+
+main.thanks {
+  padding: 20px;
+  
+}
+
+/*******Lesson9 Home page*************/
+main#card div.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 6px;
+  background-color: #15b3d38e;
+  justify-items: center;
+}
+div.cards section {
+  border: solid 2px #ffd700;
+  text-align: center;
+  width: 350px;
+  padding: 5px;
+  padding-bottom: 12px;
+  background-color: white;
+  margin: 10px 0 5px 0;
+}
+div.cards img {
+  width: 250px;
+  box-shadow: 0 0 10px 4px #777;
+  margin-top: 20px;
+
+}
+@media only screen and (min-width: 35em){
+  main#card  div.cards {
+     display: grid;
+     grid-template-columns: 1fr;
+     
+  }
+  div.cards section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    margin: 10px 0 10px 0;
+    width: 550px;
+
+  }
+  
+  section:nth-child(2) .image{
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  section:nth-child(2) .text{
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+ 
+  
+}
+
+@media only screen and (min-width: 64em){
+  main#card div.cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+  }
+  div.cards section {
+    display: block;
+    margin: 10px 0 10px 0;
+    width: 280px;
+
+  }
+}
+
+h4 {
+  margin: 0;
+}
+div.cards section p {
+  margin: 0;
+  padding: 5px;
+  font-size: 15px;
+}
+
+

@@ -1,0 +1,115 @@
+@media only screen and (min-width: 64em) {
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+    display: block;
+  }
+  header {
+    display: flex;
+    max-width: 900px;
+  }
+  header section {
+    float:left;
+    margin: 0;
+    padding: 0;
+  }
+  #box, .sec-1{
+    position: static;
+
+  }
+  #box {
+    position: absolute;
+    top: 200px;
+    background-color: rgba(255, 255, 255, 0.644);
+    width:240px;
+    height: 230px;
+    margin:3.5em 2em;
+  
+}
+
+  
+nav {
+  background: rgb(21,178,211); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgb(21,178,211) 0%, rgb(0,65,158) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgb(21,178,211) 0%,rgb(0,65,158) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgb(21,178,211) 0%,rgb(0,65,158) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#15b2d3', endColorstr='#00419e',GradientType=0 ); /* IE6-9 */
+  
+      }
+      nav button {
+          display: none;
+      }
+      nav ul {
+        display:flex;
+        justify-content: space-between;
+        max-width: 900px;
+        margin: 0 auto;
+      }
+    
+      nav ul li a {
+        text-align: center;
+        padding: 0.6rem 1rem;
+        font-size: 25px;
+        padding-left: 10px;
+        border: none;
+          border-right: 1px solid rgba(0, 0, 0,0);
+          padding: .8rem 1rem; 
+      }
+  
+      nav ul.hide {
+          display: flex;
+      }
+    
+    .sec-1 img{
+      margin: 0;
+      height: 100%;
+    }
+    .sec-3 {
+      display: grid;
+      grid-template-columns: 679px 650px;
+      grid-template-rows: 300px;
+    }
+    .contact {
+      grid-column: 2/3;
+      grid-row: 1/2;
+    }
+    .contact .map {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    .contact-img {
+      display: block;
+    }
+    .contact-img img {
+      width: 50px;
+      margin-right: 1em;
+    }
+    .map {
+      display: grid;
+      align-items: center;
+      justify-items: center;
+      background-color: rgba(136, 136, 136, 0.219);
+    }
+    iframe {
+      width: 75%;
+      height: 85%;
+    }
+
+    /*************Lesson7 CSS****************************************/
+.main-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 300px) ; 
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.img-shadow {
+  width: 250px;
+}
+/***Lesson8****/
+form label.sbs {
+  padding: .4rem 0;
+}
+  
+  }
+
+  

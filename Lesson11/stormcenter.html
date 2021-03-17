@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="../Lesson6/favicon.ico">
+    <title>Storm Center</title>
+</head>
+<body>
+    <div id="pancakesBanner"><h3>Saturday = Preston Pancakes in the Park! <br> 9:00 a.m. Saturday at the city park pavilion.</h3></div>
+    <header>
+      <img src="images/Logo-RW-png.png" alt="RW logo" />
+      <section>
+        <h1>The Right Weather</h1>
+        <h3 class="motto"><i>Be prepared anywhere you go...</i></h3>
+      </section>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776</button>
+      <ul id="primaryNav" class="hide">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="preston.html">Preston</a></li>
+        <li><a href="sodaSprings.html">Soda Springs</a></li>
+        <li><a href="fishHaven.html">Fish Haven</a></li>
+        <li class="active"><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery-7.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2 class="thanks">Report form</h2>
+            <form action="thanks.html">
+            <label class="top">Full name*: <input type="text" name="full-name" required pattern=".{5,}" title="Only letters and at least 5 characters"></label>
+            <label class="top">E-mail: <input type="email" name="emil" placeholder="example01@email.com" ></label>
+            <label class="top">Telephone number*: <input type="tel" name="phone" required></label>
+            <label class="top">Zip code*: <input type="number" name="zipCode" required></label>
+            <label class="top">Storm date: <input type="date" name="sdate"></label>
+            <label class="top">Storm type: <input list="stormType"></label>
+            <datalist id="stormType">
+                <option value="Flash Flood">Flash Flood</option>
+                <option value="Hail">Hail</option>
+                <option value="Hurricaine">Hurricaine</option>
+                <option value="Thunderstorm">Thunderstorm</option>
+                <option value="Tornado">Tornado</option>
+            </datalist>
+ 
+            <label class="sbs">Storm severity: <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+            <span id="ratingvalue">5</span></label>
+            <datalist id="tickmarks">
+                <option value="0">
+                <option value="1">
+                <option value="2">
+                <option value="3">
+                <option value="4">
+                <option value="5">
+                <option value="6">
+                <option value="7">
+                <option value="8">
+                <option value="9">
+                <option value="10">
+            </datalist>
+
+            <label class="top">Storm Region
+                <select name="sregion">
+                    <option value="">Select Region... &#9662;</option>
+                    <option value="preston">Preston</option>
+                    <option value="sodaSprings">Soda Springs</option>
+                    <option value="fishheven">Fish Heven</option>
+                </select>
+            </label><br>
+            
+            <div>User in-danger level</div>
+            <label class="sbs"><input type="radio" name="dang-level" value="yes"> Yes</label>
+            <label class="sbs"><input type="radio" name="dang-level" value="maybe"> Maybe</label>
+            <label class="sbs"><input type="radio" name="dang-level" value="no"> No</label>
+    
+            <label class="top"> Aditional information and comments <input type="textarea" name="comments"></label>
+            <br>
+
+            <input type="submit" value="Report" class="submitBtn">
+            </form>
+    
+    </main>
+    <footer>
+        <p>&copy;2021 | Elena M. Barrera | Mexico |<a>BYUI Online Learning</a></p>
+        <br />
+        <div id="date">
+          <span id="OutputDate"></span>
+        </div>
+      </footer>
+      <script src="js/date.js"></script>
+      <script src="js/toggleMenu.js"></script>
+      <script src="js/rating.js"></SCript>
+  </body>
+  </html>
