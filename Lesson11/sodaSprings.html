@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="../Lesson6/favicon.ico">
+    <title>RW Preston</title>
+  </head>
+  <body>
+    <div id="pancakesBanner"><h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, modi.</h3></div>
+    <header>
+      <img src="images/Logo-RW-png.png" alt="RW logo" />
+      <section>
+        <h1>The Right Weather</h1>
+        <h3 class="motto"><i>Be prepared anywhere you go...</i></h3>
+      </section>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776</button>
+      <ul id="primaryNav" class="hide">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="preston.html">Preston</a></li>
+        <li class="active"><a href="sodaSprings.html">Soda Springs</a></li>
+        <li><a href="fishHaven.html">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <main>
+  
+        <section class="sec-1">
+          <h2>Soda Springs</h2>
+          <picture>
+            <source media="(min-width: 560px) and (max-width: 1023px)" srcset="images/img-2.jpg">
+            <source media="(min-width: 1024px)" srcset="images/img-3.jpg">
+            <img src="images/img-1.jpg" alt="preston-img">
+        </picture>
+        </section>  
+
+        <div id="box">
+          <p>Weather Summary</p>
+          <p>Currently: <span id="current"></span></p>
+          <p>High: <span id="temp"></span>°F</p>
+          <p>Wind Chill: <span id="wcoutput"></span></p>
+          <p>Humidity: <span id="hum"></span>°F</p>
+          <p>Wind Speed: <span id="wspeed"></span> mph</p>
+          
+        </div>
+      
+  
+        <section class="sec-2">
+          <h3>Five Day Forecast</h3>
+          <div class="forecast">
+            <p><img id="imageIcon1"><br></img><span id="dayofweek1"></span> <br> <span id="forecast1"></span>&deg;</p>
+            <p><img id="imageIcon2"><br></img><span id="dayofweek2"></span> <br> <span id="forecast2"></span>&deg;</p>
+            <p><img id="imageIcon3"><br></img><span id="dayofweek3"></span> <br> <span id="forecast3"></span>&deg;</p>
+            <p><img id="imageIcon4"><br></img><span id="dayofweek4"></span> <br> <span id="forecast4"></span>&deg;</p>
+            <p><img id="imageIcon5"><br></img><span id="dayofweek5"></span> <br> <span id="forecast5"></span>&deg;</p>
+          </div>
+        </section>
+  
+        <article>
+          <h2>Soda Spring Event</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nihil incidunt fugiat, ducimus voluptatibus, quas nobis corporis enim perspiciatis voluptas odio? Commodi, quasi. Accusantium saepe exercitationem nesciunt nobis distinctio rerum.</p>
+          <div class="article-box">
+              <img src="images/preston-rodeo-img.jpg" alt="cowboy riding a cow on the rodeo">
+          </div>
+        </article>
+        
+      </main>
+      <section class="sec-3">
+        <div class="contact">
+            <p>Contact Us!</p>
+            <p>e-mail: <a href="#">therightweather@gmail.com</a> </p>
+            <p>facebook: <a href="#">The Right Weather</a></p>
+            <p>instagram: <a href="#">@the_Right_Weather</a></p>
+            <div class="contact-img">
+                <img src="images/email.png" alt="email-icon">
+                <img src="images/facebook.png" alt="face-icon">
+                <img src="images/instagram.png" alt="insta-icon">
+            </div>
+        </div> 
+        <div class="map">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.769876894235!2d-111.880325!3d42.099746950000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20Idaho%2083263%2C%20EE.%20UU.!5e0!3m2!1ses!2smx!4v1612051690298!5m2!1ses!2smx" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+       </section>
+  
+  
+    <footer>
+      <p>&copy;2021 | Elena M. Barrera | Mexico |<a>BYUI Online Learning</a></p>
+      <br />
+      <div id="date">
+        <span id="OutputDate"></span>
+      </div>
+    </footer>
+    <script src="js/date.js"></script>
+    <script src="js/toggleMenu.js" ></script>
+    <script src="js/pancakesBanner.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/preston-weather.js"></script>
+  </body>
+</html>
