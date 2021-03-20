@@ -19,7 +19,7 @@
   }
   #box {
     position: absolute;
-    top: 200px;
+    top: 260px;
     background-color: rgba(255, 255, 255, 0.644);
     width:240px;
     height: 230px;
@@ -59,11 +59,17 @@ nav {
       nav ul.hide {
           display: flex;
       }
+      section.sec-1{
+        display: block;
+      }
     
     .sec-1 img{
       margin: 0;
       height: 100%;
     }
+    .sec-2 {
+      margin-top: 0px;
+  }
     .sec-3 {
       display: grid;
       grid-template-columns: 679px 650px;

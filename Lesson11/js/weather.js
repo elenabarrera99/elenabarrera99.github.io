@@ -2,7 +2,7 @@ const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid
 fetch(apiURL)
 .then((response) => response.json())
 .then((jsObject) => {
-console.log(jsObject);
+//console.log(jsObject);
 document.getElementById("current").textContent = jsObject.weather[0].description;
 document.getElementById("temp").textContent = jsObject.main.temp;
 document.getElementById("hum").textContent = jsObject.main.humidity;
@@ -19,7 +19,7 @@ fetch(apiFCURL)
 
     //select 5 array from the 40
     let _18hour = jsObject['list'].filter((day) => day.dt_txt.includes('18:00:00'));
-    //console.log(_18hour);
+    console.log(_18hour);
 
     _18hour.forEach(list => {
         let d = new Date(list.dt_txt);

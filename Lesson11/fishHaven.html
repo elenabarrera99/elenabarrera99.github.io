@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <link rel="shortcut icon" href="../Lesson6/favicon.ico">
-    <title>RW Preston</title>
+    <title>RW Fish Haven</title>
   </head>
   <body>
-    <div id="pancakesBanner"><h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, saepe.</h3></div>
+    <div id="banner"><h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, saepe.</h3></div>
     <header>
       <img src="images/Logo-RW-png.png" alt="RW logo" />
       <section>
@@ -23,9 +23,9 @@
         <button onclick="toggleMenu()">&#9776</button>
       <ul id="primaryNav" class="hide">
         <li><a href="index.html">Home</a></li>
-        <li class="active"><a href="preston.html">Preston</a></li>
+        <li ><a href="preston.html">Preston</a></li>
         <li><a href="sodaSprings.html">Soda Springs</a></li>
-        <li><a href="fishHaven.html">Fish Haven</a></li>
+        <li class="active"><a href="fishHaven.html">Fish Haven</a></li>
         <li><a href="stormcenter.html">Storm Center</a></li>
         <li><a href="gallery.html">Gallery</a></li>
       </ul>
@@ -35,9 +35,9 @@
         <section class="sec-1">
           <h2>Fish Haven</h2>
           <picture>
-            <source media="(min-width: 560px) and (max-width: 1023px)" srcset="images/img-2.jpg">
-            <source media="(min-width: 1024px)" srcset="images/img-3.jpg">
-            <img src="images/img-1.jpg" alt="preston-img">
+            <source media="(min-width: 560px) and (max-width: 1023px)" srcset="images/hero/fishhaven2.jpg">
+            <source media="(min-width: 1024px)" srcset="images/hero/fishhaven3.jpg">
+            <img src="images/hero/fishhaven1.jpg" alt="preston-img">
         </picture>
         </section>  
 
@@ -62,12 +62,14 @@
             <p><img id="imageIcon5"><br></img><span id="dayofweek5"></span> <br> <span id="forecast5"></span>&deg;</p>
           </div>
         </section>
+
+        <div class="eventfh"></div>
   
         <article>
           <h2>Fish Haven Event</h2>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt corporis magnam voluptates tempore necessitatibus veritatis labore commodi pariatur repellat rem.</p>
           <div class="article-box">
-              <img src="images/preston-rodeo-img.jpg" alt="cowboy riding a cow on the rodeo">
+              <img src="images/fh-event.jpg" alt="cowboy riding a cow on the rodeo">
           </div>
         </article>
         
@@ -99,8 +101,8 @@
     </footer>
     <script src="js/date.js"></script>
     <script src="js/toggleMenu.js" ></script>
-    <script src="js/pancakesBanner.js"></script>
     <script src="js/windchill.js"></script>
     <script src="js/fishhaven-weather.js"></script>
+    <script src="js/fhevents.js"></script>
   </body>
 </html>
