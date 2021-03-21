@@ -27,7 +27,7 @@ fetch(requestURL)
         p3.textContent = `Annual Rain Fall ${towns[i].averageRainfall}`;
         image.setAttribute('src', "images/" + towns[i].photo);
         image.setAttribute('alt', "image of the named place")
-        div1.className = "text";
+        div1.className = "text1";
         div2.className = "image";
         
         /*switch(towns[i]){
