@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <img src="images/Lerma-logo.png" alt="logo-img">
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="city.html">City</a></li>
+            <li><a href="join.html">Sign up</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="hero-img">
+            <img src="images/people-working.jpg" alt="hero-img">
+        </div>
+        <section class="company-advertisement">
+            <img src="images/barcel.jpg" alt="barcel-advertisement"> <hr>
+            <img src="images/bayer.jpg" alt="bayer-advertisement"><hr>
+            <img src="images/nestle.jpg" alt="nestle-advertisement">
+        </section>
+        <section class="treat-sec">
+            <img src="images/treat.jpg" alt="two people giving hands">
+            <div>
+                <h2>Name of the Purpose</h2>
+                <h3>Purpose</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste voluptatem esse ducimus velit expedita voluptatibus officia dolores officiis sed itaque!</p>
+                <h3>Goals</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum a sequi cupiditate quisquam illo assumenda dolor sunt nobis eligendi ex.</p>
+            </div>
+            <div class="button">
+                <button type="button"><a href="join.html">Join</a></button>
+
+            </div>
+        </section>
+        <section class="contact-info">
+            <h2>Contact Us!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptate numquam voluptatibus voluptatum modi consequuntur?</p>
+            <hr>
+            <div>
+                <a href="#"><img src="images/facebook.png" alt="facebook-logo"></a>
+                <a href="#"><img src="images/instagram.png" alt="instagram-logo"></a>
+                <a href="#"><img src="images/twitter.png" alt="twitter-logo"></a>
+            </div>
+            
+
+        </section>
+        <section> 
+            <div class="box">
+                <h2>Weather Summary</h2>
+                <p>Temperature</p><span id=""></span>
+                <p>Condition</p><span id=""></span>
+                <p>Humidity</p><span id=""></span>
+            </div>
+            <div class="forecast">
+                <p><span id="dayofweek1">Monday</span> <br> <img id="imageIcon1" alt="forecast-img"></img><br><span id="forecast1">36</span>&deg;</p>
+                <p><span id="dayofweek2">Tuesday</span> <br> <img id="imageIcon2" alt="forecast-img"></img><br><span id="forecast2">67</span>&deg;</p>
+                <p><span id="dayofweek3">Wednesday</span> <br> <img id="imageIcon3" alt="forecast-img"></img><br><span id="forecast3">45</span>&deg;</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <p>Current Date</p>
+        <hr>
+        <p>Links</p>
+        <hr>
+        <p>CopyRight</p>
+    </footer>
+    <script src="js/toggleMenu.js"></script>
+</body>
+</html>
