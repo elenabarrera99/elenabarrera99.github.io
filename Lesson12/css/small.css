@@ -1,205 +1,200 @@
-@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&display=swap&family=Dosis&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&display=swap&family=Dosis&display=swap");
 
 /****** Header ******/
 header {
-    text-align: center;
+  text-align: center;
 }
 
 header img {
-    width: 220px;
+  width: 220px;
 }
 
 /**** Navigation ****/
 
 nav ul {
-    list-style: none;
-    display: block;
-    background-color: #FFFCF2;
-    margin: 0;
-    padding: 0;
-   
+  list-style: none;
+  display: block;
+  background-color: #fffcf2;
+  margin: 0;
+  padding: 0;
 }
 
 nav ul li a {
-    text-decoration: none;
-    display: block;
+  text-decoration: none;
+  display: block;
   padding: 0.8rem 2%;
-  color: #EB5E28;
+  color: #eb5e28;
   border-top: 2.2px solid #dab28b;
   text-align: center;
-   
 }
-nav ul li.active a{
-    background-color: #FAEDCD;
-    color: black;
+nav ul li.active a {
+  background-color: #faedcd;
+  color: black;
 }
 
 nav ul li a:hover {
-    background-color: #dab28b;
-    color: #323d0e;
-  }
+  background-color: #dab28b;
+  color: #323d0e;
+}
 
 nav ul.hide {
-    display: none;
+  display: none;
 }
 
 nav button {
-    
-    justify-items: center;
-    width: 100%;
-    background-color: transparent;
-    border: none;
-    font-size: 30px;
-    margin-bottom: 10px;
-    color: #D4A373;
-
+  justify-items: center;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #d4a373;
 }
 
 /***** Main *****/
 main {
-    background-color: #FFFCF2;
+  background-color: #fffcf2;
 }
-main .hero-img img{
-    width: 100%;
+main .hero-img img {
+  width: 100%;
 }
 
 section img {
-    box-sizing: border-box;
-    margin: 20px;
+  box-sizing: border-box;
+  margin: 20px;
 }
 
 /***** Company ad section  *****/
 section.company-advertisement img {
-    width: 50%;
-    box-shadow:4px 4px 4px #555;
-    
+  width: 50%;
+  box-shadow: 4px 4px 4px #555;
 }
 
 section.company-advertisement {
-    background-color: #CCC5B9;
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
-    border-radius: 30px;
-    margin: 20px;  
+  background-color: #ccc5b9;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  border-radius: 30px;
+  margin: 20px;
 }
 
 .company-advertisement img:hover {
-    width: 55%;
+  width: 55%;
 }
 .company-advertisement hr {
-    width: 95%;
-    border: 2px solid #afa89a;
+  width: 95%;
+  border: 2px solid #afa89a;
 }
 
 /****** Treat section *****/
 
 .treat-sec img {
-    margin: 0;
-    width: 100%;
+  margin: 0;
+  width: 100%;
 }
 
 .treat-sec {
-    background-color: #FFFCF2;
+  background-color: #fffcf2;
 }
 
 .treat-sec div {
-    padding: 20px;
+  padding: 20px;
 }
 
-.treat-sec div h2{
-    color: #EB5E28;
-    font-family: 'Aleo', serif;
+.treat-sec div h2 {
+  color: #eb5e28;
+  font-family: "Aleo", serif;
 }
 
 .treat-sec div h3 {
-    width: 80px;
-    padding: 5px;
-    border: 3px solid #403D39;
-    border-radius: 15px;
-    color: white;
-    background-color: #403d3991;
-    font-family: 'Dosis', sans-serif;
-    
+  width: 80px;
+  padding: 5px;
+  border: 3px solid #403d39;
+  border-radius: 15px;
+  color: white;
+  background-color: #403d3991;
+  font-family: "Dosis", sans-serif;
 }
 .treat-sec div p {
-    font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
 }
 .treat-sec div.button {
-    display: grid;
-    justify-content: center;
-    font-family: 'Aleo', serif;
-    font-size: 25px;
+  display: grid;
+  justify-content: center;
+  font-family: "Aleo", serif;
+  font-size: 25px;
 }
 .treat-sec button a {
-    text-decoration: none;
-    color: #403D39;
+  text-decoration: none;
+  color: #403d39;
 }
 .treat-sec button {
-    width: 130px;
-    height: 70px;
-    border-radius: 20px;
-    border: 3px solid #EB5E28;
-    background-color: #FFFCF2;
-    
+  width: 130px;
+  height: 70px;
+  border-radius: 20px;
+  border: 3px solid #eb5e28;
+  background-color: #fffcf2;
 }
 
 .treat-sec button:hover {
-    background-color: #eb5f28c0;
+  background-color: #eb5f28c0;
 }
-.treat-sec button a:hover{
-    display: block;
-    color: white;
+.treat-sec button a:hover {
+  display: block;
+  color: white;
 }
 /******* Contact Info *******/
 
 .contact-info {
-    display: grid;
-    justify-items: center;
-    background-color: #252422;
-    padding: 10px;
+  display: grid;
+  justify-items: center;
+  background-color: #252422;
+  padding: 10px;
 }
 .contact-info div {
-    text-align: center;
+  text-align: center;
 }
 
-.contact-info img{
-    width: 10%;
+.contact-info img {
+  width: 10%;
 }
 
 .contact-info h2 {
-    color: #CCC5B9;
+  color: #ccc5b9;
 }
 
 .contact-info p {
-    color: #FFFCF2;
+  color: #fffcf2;
 }
 
 .contact-info hr {
-    color:  #CCC5B9;
-    background-color: #CCC5B9;
-    height: 3px;
-    width: 90%;
+  color: #ccc5b9;
+  background-color: #ccc5b9;
+  height: 3px;
+  width: 90%;
 }
 
 /******* Weather Section ********/
 .box {
-    margin: 20px;
-    padding: 10px;
-    box-shadow: 0 0 8px #555;
-    width: 80%;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 0 0 8px #555;
+  width: 80%;
 }
 
 .forecast {
-    background-color: #FAEDCD;
-    text-align: center;
+  background-color: #faedcd;
+  text-align: center;
 }
-.forecast #dayofweek1, .forecast #dayofweek2, .forecast #dayofweek3 {
-    color: #D4A373;
+.forecast #dayofweek1,
+.forecast #dayofweek2,
+.forecast #dayofweek3 {
+  color: #d4a373;
 }
 
 /**** Footer ****/
 
 footer {
-    background-color: #FEFAE0;
+  background-color: #fefae0;
 }
