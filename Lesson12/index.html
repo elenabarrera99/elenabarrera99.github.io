@@ -13,7 +13,7 @@
 <body>
     <header>
         <img src="images/Lerma-logo.png" alt="logo-img">
-    </header>
+    </header> 
     <nav>
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
@@ -24,14 +24,30 @@
             <li><a href="contact.html">Contact us</a></li>
         </ul>
     </nav>
+    
     <main>
         <div class="hero-img">
+            <h1>Commerce is our pasion</h1>
             <img src="images/people-working.jpg" alt="hero-img">
+            
         </div>
         <section class="company-advertisement">
-            <img src="images/barcel.jpg" alt="barcel-advertisement"> <hr>
-            <img src="images/bayer.jpg" alt="bayer-advertisement"><hr>
-            <img src="images/nestle.jpg" alt="nestle-advertisement">
+            <h2>Know the companies in or city</h2>
+            <picture>
+                <source media="(min-width:1024px)" srcset="images/barcel-ad1.jpg">
+                <img src="images/barcel-ad.jpg" alt="barcel-advertisement">
+            </picture>
+            <hr>
+            <picture>
+                <source media="(min-width:1024px)" srcset="images/bayer-ad1.jpg">
+                <img src="images/bayer-ad.jpg" alt="bayer-advertisement">
+            </picture>
+            <hr>
+            <picture>
+                <source media="(min-width:1024px)" srcset="images/nestle-ad1.jpg">
+                <img src="images/nestle-ad.jpg" alt="nestle-advertisement">
+            </picture>
+            
         </section>
         <section class="treat-sec">
             <img src="images/treat.jpg" alt="two people giving hands">
@@ -59,22 +75,25 @@
             
 
         </section>
-        <section> 
+        <section class="weather"> 
             <div class="box">
                 <h2>Weather Summary</h2>
-                <p>Temperature</p><span id=""></span>
-                <p>Condition</p><span id=""></span>
-                <p>Humidity</p><span id=""></span>
+                <p>Temperature <br> <span id="temp"></span></p>
+                <p>Condition: <span id="current"></span></p>
+                <p>Humidity: <span id="hum"></span></p>
             </div>
             <div class="forecast">
                 <p><span id="dayofweek1">Monday</span> <br> <img id="imageIcon1" alt="forecast-img"></img><br><span id="forecast1">36</span>&deg;</p>
+                <hr>
                 <p><span id="dayofweek2">Tuesday</span> <br> <img id="imageIcon2" alt="forecast-img"></img><br><span id="forecast2">67</span>&deg;</p>
+                <hr>
                 <p><span id="dayofweek3">Wednesday</span> <br> <img id="imageIcon3" alt="forecast-img"></img><br><span id="forecast3">45</span>&deg;</p>
             </div>
         </section>
+        <hr>
     </main>
     <footer>
-        <hr>
+        
         <p>Current Date</p>
         <hr>
         <p>Links</p>
@@ -82,5 +101,6 @@
         <p>CopyRight</p>
     </footer>
     <script src="js/toggleMenu.js"></script>
+    <script src="js/weather.js"></script>
 </body>
 </html>

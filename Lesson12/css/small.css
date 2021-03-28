@@ -1,15 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&display=swap&family=Dosis&display=swap");
 
 /****** Header ******/
-header {
-  text-align: center;
-}
 
 header img {
-  width: 220px;
+  width: 150px;
+  margin: 0;
 }
 
 /**** Navigation ****/
+
 
 nav ul {
   list-style: none;
@@ -42,7 +41,7 @@ nav ul.hide {
 }
 
 nav button {
-  justify-items: center;
+    text-align: center;
   width: 100%;
   background-color: transparent;
   border: none;
@@ -63,10 +62,17 @@ section img {
   box-sizing: border-box;
   margin: 20px;
 }
+.hero-img h1 {
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+
+}
 
 /***** Company ad section  *****/
+
 section.company-advertisement img {
-  width: 50%;
+  
   box-shadow: 4px 4px 4px #555;
 }
 
@@ -80,7 +86,7 @@ section.company-advertisement {
 }
 
 .company-advertisement img:hover {
-  width: 55%;
+  width: 200px;
 }
 .company-advertisement hr {
   width: 95%;
@@ -179,13 +185,28 @@ section.company-advertisement {
 .box {
   margin: 20px;
   padding: 10px;
-  box-shadow: 0 0 8px #555;
+  box-shadow: 0 0 8px 2px #EB5E28;
   width: 80%;
+  text-align: center;
+  background-color: #403D39;
+  color: white;
 }
 
+.box :nth-child(2) span {
+    text-shadow: 0px 0px 6px rgb(136, 135, 135);
+    color: #EB5E28;
+    font-size: 80px;
+}
+section.weather {
+    display: grid;
+    justify-content: center;
+}
 .forecast {
   background-color: #faedcd;
   text-align: center;
+  padding: 10px;
+  display: inline-flex;
+  margin-bottom: 10px;
 }
 .forecast #dayofweek1,
 .forecast #dayofweek2,
@@ -193,8 +214,129 @@ section.company-advertisement {
   color: #d4a373;
 }
 
+.forecast img {
+    margin: 0;
+    width: 100px;
+}
+.forecast hr {
+    width: 1px;
+    height: 160px;
+}
+
 /**** Footer ****/
+hr {
+    margin: 0;
+}
 
 footer {
   background-color: #fefae0;
+  display: grid;
+  grid-template-columns: 1fr 3px 1fr 3px 1fr ;
+  grid-template-rows: auto;
+  align-items: center;
+  text-align: center;
+  
+  
+}
+
+footer hr {
+    width: 1px;
+    height: 40px;
+
+}
+
+footer p {
+    width: 100%;
+    margin: 0px;
+}
+
+/********** Site Plan ***********/
+#chamber-header {
+  background-color: white;
+  text-align: center;
+}
+
+main#chamber-main {
+  background-color: #FFFCF2;
+  width: 50%;
+  margin: 0 auto
+}
+#chamber-main h1, #chamber-main h2 {
+  font-family: "Aleo", serif;
+  background-color: #eb5f289d;
+}
+
+#chamber-main p, #chamber-main h3 {
+  font-family: "Dosis", sans-serif;
+}
+
+main#chamber-main img {
+  width: 250px;
+}
+#c-sketches {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 0 250px;
+}
+
+#c-sketches img {
+  margin: 15px 0px;
+  box-shadow: 0 0 4px #555;
+}
+/*** Tables ***/
+
+table tr td {
+  border: 1px solid black;
+  padding: 5px;
+  
+}
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+table tr td.aleo {
+  font-family: "Aleo", serif;
+}
+table #_1{
+  color: #252422;
+  font-size: 30px;
+}
+table #_2 {
+  color: #EB5E28;
+  font-size: 20px;
+  background-color: #FFFCF2;
+}
+table #_3 {
+  color: #252422;
+  background-color: #dab28b;
+  font-size: 20px;
+}
+table #_4 {
+  color: #252422;
+  background-color: #fefae0;
+}
+
+table tr td.dosis {
+  font-family: "Dosis", sans-serif;
+}
+
+table #_5 {
+  background-color: #403D39;
+  color: #EB5E28;
+  font-size: 20px;
+}
+table #_6 {
+  background-color: #faedcd;
+  color: #d4a373;
+  font-size: 20px;
+}
+table #_7 {
+  background-color: #ccc5b9a1;
+  color: #252422;
+  font-size: 30px;
+}
+table #_8 {
+  background-color: #252422;
+  color: #ccc5b9;
+  font-size: 25px;
 }

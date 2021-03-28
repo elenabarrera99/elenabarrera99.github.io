@@ -1,0 +1,5 @@
+@media only screen and (min-width:1024px) {
+    .company-advertisement img:hover {
+        width: 400px;
+      }
+}
