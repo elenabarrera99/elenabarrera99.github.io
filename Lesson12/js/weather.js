@@ -16,7 +16,7 @@ fetch(apiFCURL)
 .then((jsObject) => {
     console.log(jsObject);
     let day = 0;
-    const weekdays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+    const weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
     //select 5 array from the 40
     let _18hour = jsObject['list'].filter((day) => day.dt_txt.includes('18:00:00'));

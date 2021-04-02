@@ -2,4 +2,14 @@
     .company-advertisement img:hover {
         width: 400px;
       }
+
+      section.company-advertisement hr{
+        width: 1px;
+        height: 430px;
+    }
+
+    .contact-info {
+      margin-top: 135px;
+      margin-bottom: 0;
+  }
 }

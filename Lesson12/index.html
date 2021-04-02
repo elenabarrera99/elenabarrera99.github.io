@@ -65,15 +65,16 @@
         </section>
         <section class="contact-info">
             <h2>Contact Us!</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptate numquam voluptatibus voluptatum modi consequuntur?</p>
+            <div class="contact-grid">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptate numquam voluptatibus voluptatum modi consequuntur?</p>
             <hr>
             <div>
                 <a href="#"><img src="images/facebook.png" alt="facebook-logo"></a>
                 <a href="#"><img src="images/instagram.png" alt="instagram-logo"></a>
                 <a href="#"><img src="images/twitter.png" alt="twitter-logo"></a>
+            </div>  
             </div>
             
-
         </section>
         <section class="weather"> 
             <div class="box">
@@ -83,24 +84,25 @@
                 <p>Humidity: <span id="hum"></span></p>
             </div>
             <div class="forecast">
-                <p><span id="dayofweek1">Monday</span> <br> <img id="imageIcon1" alt="forecast-img"></img><br><span id="forecast1">36</span>&deg;</p>
-                <hr>
-                <p><span id="dayofweek2">Tuesday</span> <br> <img id="imageIcon2" alt="forecast-img"></img><br><span id="forecast2">67</span>&deg;</p>
-                <hr>
-                <p><span id="dayofweek3">Wednesday</span> <br> <img id="imageIcon3" alt="forecast-img"></img><br><span id="forecast3">45</span>&deg;</p>
+                <p class="fore-para"><span id="dayofweek1">Monday</span></p> <br> <img id="imageIcon1" alt="forecast-img"></img> <p class="fore-temp1"><span id="forecast1">36</span>&deg;</p>
+                <hr class="hr1">
+                <p class="fore-para"><span id="dayofweek2">Tuesday</span></p> <br> <img id="imageIcon2" alt="forecast-img"></img> <p class="fore-temp2"><span id="forecast2">67</span>&deg;</p>
+                <hr class="hr2">
+                <p class="fore-para"><span id="dayofweek3">Wednesday</span></p> <br> <img id="imageIcon3" alt="forecast-img"></img> <p class="fore-temp3"><span id="forecast3">45</span>&deg;</p>
             </div>
         </section>
         <hr>
     </main>
     <footer>
         
-        <p>Current Date</p>
+        <div id="date"></div>
         <hr>
-        <p>Links</p>
+        <p><a href="#">BYUI Online Learning</a> | <a href="https://www.inadem.gob.mx/puntos-de-la-red/camara-nacional-de-comercio-servicios-y-turismo-del-valle-de-toluca/">Lerma Chamber of Commerce</a></p>
         <hr>
-        <p>CopyRight</p>
+        <p>&copy;2021 | Elena M. Barrera | Mexico</p>
     </footer>
     <script src="js/toggleMenu.js"></script>
     <script src="js/weather.js"></script>
+    <script src="js/date.js"></script>
 </body>
 </html>
