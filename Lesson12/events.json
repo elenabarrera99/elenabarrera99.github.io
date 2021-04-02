@@ -25,51 +25,51 @@
 
         },
         {
-            "name": "#" ,
-            "adress": "",
-            "purpose": "",
-            "image": "",
-            "site": ""
+            "name": "SERVICIOS SHASA, S. DE R.L. DE C.V." ,
+            "adress": "BLVD A. MIGUEL ALEMAN NO. 154 NAVES 10-17 RANCHO EL ROSARIO ZONA INDUSTRIAL LERMA",
+            "purpose": "VENTA DE ROPA PARA DAMA",
+            "image": "shasa.jpg",
+            "site": "https://www.shasa.com/"
 
         },
         {
-            "name": "#" ,
-            "adress": "",
-            "purpose": "",
-            "image": "",
-            "site": ""
+            "name": "ROTOPLAS, S.A. DE C.V." ,
+            "adress": "CIRCUITO DE LA INDUSTRIA NORTE NO. 92 MZ 15 LT 4 PARQUE INDUSTRIAL LERMA",
+            "purpose": "NYECCION, SOPLADO, FORMADO AL VACIO, SELLADO ELEC, PRODUCCION Y MANUFACTURACION DE TODA CLASE DE PRODUCTOS DE PLASTICO",
+            "image": "rotoplas.jfif",
+            "site": "https://rotoplas.com.mx/"
 
         },
         {
-            "name": "#" ,
-            "adress": "",
-            "purpose": "",
-            "image": "",
-            "site": ""
+            "name": "ROGERI, S.A DE C.V." ,
+            "adress": "AV SAN RAFAEL NO. 96 LT 27 MZ C PARQUE INDUSTRIAL LERMA",
+            "purpose": "NDUSTRIA TEXTIL TEJIDO Y BODEGA",
+            "image": "rogeri.png",
+            "site": "https://www.rogeri.mx/"
 
         },
         {
-            "name": "#" ,
-            "adress": "",
-            "purpose": "",
-            "image": "",
-            "site": ""
+            "name": "BARCEL, S.A. DE C.V." ,
+            "adress": "BLVD A. MIGUEL ALEMAN NO. 160 LOTE 4 PARQUE INDUSTRIAL LERMA",
+            "purpose": "BODEGA",
+            "image": "barcel.jpg",
+            "site": "https://www.barcel.com.mx/"
 
         },
         {
-            "name": "#" ,
-            "adress": "",
-            "purpose": "",
-            "image": "",
-            "site": ""
+            "name": "BAYER DE MEXICO" ,
+            "adress": "CARR. MÉX-TOL. KM 52.5 CORREDOR INDUSTRIAL LERMA",
+            "purpose": "FARMACEUTICA",
+            "image": "bayer.jfif",
+            "site": "https://www.bayer.com/es/mx/mexico-home"
 
         },
         {
-            "name": "#" ,
-            "adress": "",
-            "purpose": "",
-            "image": "",
-            "site": ""
+            "name": "NESTLE MEXICO, S.A DE C.V." ,
+            "adress": "CARR. MÉX-TOL. KM 53.9 ODONEL ZONA INDUSTRIAL LERMA",
+            "purpose": "ALMACENAMIENTO DE MATERIA PRIMA",
+            "image": "nestle.jpg",
+            "site": "https://www.nestle.com.mx/"
 
         }
     ]
