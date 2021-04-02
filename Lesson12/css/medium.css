@@ -15,9 +15,6 @@
         width: 340px;
     }
 
-    .hero-img img {
-        height: 400px;
-    }
 
     nav ul.hide {
         display: grid;

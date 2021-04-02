@@ -1,0 +1,76 @@
+{
+    "companies": [
+        {
+            "name": "WMD, S.A. DE C.V." ,
+            "adress": "AV DE LOS SAUCES NO. 34 PARQUE INDUSTRIAL LERMA",
+            "purpose": "FABRICACION DE PARTES AUTOMOTRICES",
+            "image": "https://wmd.com.mx/image/IMAGENES_WMD/logo_grupo_wmd.svg",
+            "site": "https://wmd.com.mx/#ubicacion"
+
+        },
+        {
+            "name": "TRANSPORTES LEX, S. DE R.L. DE C.V." ,
+            "adress": "BLVD A. MIGUEL ALEMAN NO. 160 LOCAL 20 ZONA INDUSTRIAL LERMA",
+            "purpose": "SERVICIO DE PAQUETERIA",
+            "image": "lex.jpg",
+            "site": "https://www.facebook.com/LiteguaGT/"
+
+        },
+        {
+            "name": "TARANTO MEXICANA, S.A. DE C.V." ,
+            "adress": "PRIV DE SANTA ANA 36 MZ C, LOTES 2 Y 3 BODEGA 3 PARQUE INDUSTRIAL LERMA",
+            "purpose": "INTERMEDIARIO DE COMERCIO AL POR MAYOR DE AUTOPARTES",
+            "image": "taranto.jfif",
+            "site": "http://www.taranto.com.mx/"
+
+        },
+        {
+            "name": "#" ,
+            "adress": "",
+            "purpose": "",
+            "image": "",
+            "site": ""
+
+        },
+        {
+            "name": "#" ,
+            "adress": "",
+            "purpose": "",
+            "image": "",
+            "site": ""
+
+        },
+        {
+            "name": "#" ,
+            "adress": "",
+            "purpose": "",
+            "image": "",
+            "site": ""
+
+        },
+        {
+            "name": "#" ,
+            "adress": "",
+            "purpose": "",
+            "image": "",
+            "site": ""
+
+        },
+        {
+            "name": "#" ,
+            "adress": "",
+            "purpose": "",
+            "image": "",
+            "site": ""
+
+        },
+        {
+            "name": "#" ,
+            "adress": "",
+            "purpose": "",
+            "image": "",
+            "site": ""
+
+        }
+    ]
+}
