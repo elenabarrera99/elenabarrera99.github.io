@@ -350,3 +350,19 @@ table #_8 {
   color: #ccc5b9;
   font-size: 25px;
 }
+
+/******** directory *******/
+main .companies-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+div.companies-cards section {
+  border: solid 1px #555;
+  width: 300px;
+  background-color: #CCC5B9;
+}
+
+div.companies-cards img {
+  width: 180px;
+}

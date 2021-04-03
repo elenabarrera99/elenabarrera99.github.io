@@ -1,13 +1,13 @@
 {
     "companies": [
         {
-            "name": "WMD, S.A. DE C.V." ,
-            "adress": "AV DE LOS SAUCES NO. 34 PARQUE INDUSTRIAL LERMA",
-            "purpose": "FABRICACION DE PARTES AUTOMOTRICES",
-            "image": "https://wmd.com.mx/image/IMAGENES_WMD/logo_grupo_wmd.svg",
-            "site": "https://wmd.com.mx/#ubicacion"
+            "name": "UNILEVER DE MEXICO, S. DE R.L. DE C.V. ALMACEN" ,
+            "adress": "CARR. MÉX-TOL. KM 53.9 EDIFICIO G PARQUE INDUSTRIAL LERMA",
+            "purpose": "ALMACENAMIENTO DE MATERIAL DE EMPAQUE Y MATERIAS PRIMAS DE ALIMENTOS",
+            "image": "unilever.jpg",
+            "site": "https://www.unilever.com.mx/"
 
-        },
+        }, 
         {
             "name": "TRANSPORTES LEX, S. DE R.L. DE C.V." ,
             "adress": "BLVD A. MIGUEL ALEMAN NO. 160 LOCAL 20 ZONA INDUSTRIAL LERMA",
