@@ -184,6 +184,84 @@
     grid-row: 6/7;
 }
 
+/******* City section *********/
+main.city {
+    text-align: center;
+    width: 100%;
+  }
+  main.city div {
+    font-size: 25px;
+    margin: 0 auto;
+    width: 800px;
+  }
+  main.city section{
+    width:700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center; 
+    text-align: left;
+    font-size: 18px;
+  }
+  main.city section img{
+    margin: 10PX 0;
+    width: 290px;
+    box-shadow: 0 0 8px #ccc5b9;
+  }
+
+  main.city .place2 img {
+      grid-column: 2/3;
+      grid-row: 1/2;
+  }
+
+  main.city .place2 p {
+      
+      text-align: right;
+  }
+
+/******** directory *******/
+main .companies-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /******** Join section ********/
+  main.join {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+      align-items: center;
+  }
+  main.join .join-img{
+      text-align: left;
+  }
+  main.join .join-img img {
+      width: 550px;
+      height: 500px;
+  }
+  main.join .join-img div {
+    background-color: #ccc5b9be;
+    box-shadow: 4px 4px 6px #403d39;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 250px;
+    width: 300px;
+    margin: 1em 3em;
+    padding: 10px;
+    box-sizing: content-box;
+  }
+  main.join .join-img h1, main.join .join-img p {
+    color: #403d39;
+    
+  }
+  main.join section.form {
+      margin-left: 40px;
+      grid-column: 2/3;
+      grid-row: 1/2;
+  }
+
+ 
 
     /*
     */
