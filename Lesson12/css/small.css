@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&display=swap&family=Dosis&display=swap");
 
 /****** Header ******/
-
+p, label {
+  font-family: "Dosis", sans-serif;
+}
+h1, h2, h3, a, button {
+  font-family: "Aleo", serif;
+}
 header img {
-  width: 150px;
+  width: 120px;
   margin: 0;
 }
 
@@ -79,16 +84,13 @@ section img {
     text-align: center;
     margin: 0;
     padding: 5px;
-
 }
 
 /***** Company ad section  *****/
 
 section.company-advertisement img {
-  
   box-shadow: 4px 4px 4px #555;
 }
-
 section.company-advertisement {
   background-color: #ccc5b9;
   display: grid;
@@ -111,6 +113,7 @@ section.company-advertisement {
 .treat-sec img {
   margin: 0;
   width: 100%;
+  height: fit-content;
 }
 
 .treat-sec {
@@ -134,8 +137,12 @@ section.company-advertisement {
   color: white;
   background-color: #403d3991;
   font-family: "Dosis", sans-serif;
+  margin: 0;
+  margin-top: 10px;
 }
 .treat-sec div p {
+  margin: 0;
+  font-size: 20px;
   font-family: "Dosis", sans-serif;
 }
 .treat-sec div.button {
@@ -419,6 +426,9 @@ div.companies-cards img {
 div.companies-cards section:hover {
   box-shadow: 4px 4px 4px #504f4f;
 }
+.directory button {
+  font-size: 24px;
+}
 
 /****** Join Section ******/
 .join-img img{
@@ -462,6 +472,7 @@ main.join .buttons button.estandar {
   border: 2px solid #3A5EBB;
   color: #3A5EBB;
   background-color: transparent;
+  font-size: 15px;
 }
 main.join button.estandar:hover{
   border: none;
@@ -484,8 +495,9 @@ main.join button.bronze:hover{
 
 main.join .exp {
   display: none;
-  width: 400px;
+  width: 300px;
   margin: 0 auto;
+  margin-bottom: 10px;
   padding: 10px;
   background-color: #403D39;
   color: #ccc5b9;
@@ -550,13 +562,105 @@ main.join div.submit a:hover {
 section.contact-grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: 180px fit-content 1fr;
 }
-
-section.contact-grid .contc-info {
+section.contact-grid .cont-info {
+  padding: 0 15px;
 }
-
-section.contact-grid img {
+section.contact-grid .cont-info h1, section.contact-grid .cont-info p {
+  margin: 0;
+  margin-top: 10px;
+  padding-top: 5px;
   
 }
+section.contact-grid .cont-info img {
+  float: left;
+  width: 40px;
+  height: 50px;
+  margin: 0;
+}
+/****** Contact us Form *****/
+section.contact-grid .cont-form {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 80%;
+  justify-content: center;
+  justify-items: center;
+  
+  background-color: #707070;
+  border-radius: 40px;
+  box-shadow: 0 0 8px 1px #707070;
+  color: #CCC5B9;
+}
+section.contact-grid .cont-form h2 {
+  font-size: 30px;
+}
+section.contact-grid .cont-form input{
+  width: 100%;
+  height: 25px;
+  margin: 5px;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  margin: 5px;
+}
+div.cont-form {
+  margin: 5px;
+  text-align: center;
+}
+div.form-box button {
+  width: 130px;
+  height: 70px;
+  border-radius: 20px;
+  border: 3px solid #eb5e28;
+  background-color: #eb5f28ee;
+  font-size: 20px;
+  margin: 15px 0;
+}
+div.form-box button:hover {
+  background-color: #eb5f2875;
+  color: white;
+}
+.form-box button a{
+  text-decoration: none;
+  color: #403d39;
+}
+.form-box button a:hover {
+  display: block;
+  color: white;
+}
+div.cont-form  label{
+  justify-self: left;
+  
+  
+}
+/*****************/
+.map {
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.map iframe{
+  margin: 0;
+  width: 320px;
+  height: 300px;
+}
+
+/****** Thank you section*******/
+main.thanks {
+  text-align: center;
+}
+main.thanks h1 {
+  font-family: sans-serif;
+  
+}
+
+main.thanks p {
+  font-size: 20px;
+}
+main.thanks p a {
+  color: #252422;
+}
+
+
 

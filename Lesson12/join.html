@@ -1,83 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
     <title>Sign Up</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <img src="images/Lerma-logo.png" alt="logo-img">
-    </header> 
+      <img src="images/Lerma-logo.png" alt="logo-img" />
+    </header>
     <nav>
-        <button onclick="toggleMenu()">&#9776;</button>
-        <ul id="primaryNav" class="hide">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="city.html">City</a></li>
-            <li class="active"><a href="join.html">Sign up</a></li>
-            <li><a href="directory.html">Directory</a></li>
-            <li><a href="contact.html">Contact us</a></li>
-        </ul>
+      <button onclick="toggleMenu()">&#9776;</button>
+      <ul id="primaryNav" class="hide">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="city.html">City</a></li>
+        <li class="active"><a href="join.html">Sign up</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>
     </nav>
     <main class="join">
-        <section class="join-img">
-            <img src="images/join-us-img.jpg" alt="People join">
-            <div>
-            <h1>Join us!</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptates quis doloremque earum quisquam. Quam temporibus eveniet officiis molestias esse quos sequi laboriosam consequatur velit!</p>
-            </div>
-        </section>
-        <section class="form">
-            <label for="fname">First Name*</label>
-            <input type="text">
-            <label for="lname">Last Name*</label>
-            <input type="text">
-            <label for="title">Title</label>
-            <input type="text">
-            <label for="Email">Email*</label>
-            <input type="email" placeholder="example@xxx.com">
-            <label for="PNum">Phone Number*</label>
-            <input type="text" placeholder="xxx-xxxx-xxxx">
-            <label for="bname">Business Name</label>
-            <input type="text" >
-            <label for="bweb">Business Website</label>
-            <input type="text" >
-            <label for="bAdrss">Business Adress</label>
-            <input type="text" >    
-            <label for="bDes">Business Description</label>
-            <input type="text" >
-            
-        </section>
-        <section class="buttons">
-            <button class="estandar" id="btn1">Estandar</button>
-            
-            <button class="bronze" id="btn2">Bronze</button>
-            <button class="silver" id="btn3">Silver</button>
-            <button class="gold" id="btn4">Gold</button>
-            <div id="eDiv" class="exp"><h2>Estandar</h2><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, debitis!</p></div>
-            <div id="bDiv" class="exp"><h2>Bronze</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, tempore!</p></div>
-            <div id="sDiv" class="exp"><h2>Silver</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, amet!</p></div>
-            <div id="gDiv" class="exp"><h2>Gold</h2><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, voluptatem.</p></div>
-        </section>
-        <div class="submit">
-            <button type="submit"><a href="#">Join</a></button>
+      <section class="join-img">
+        <img src="images/join-us-img.jpg" alt="People join" />
+        <div>
+          <h1>Join us!</h1>
+          <p>
+            Come to meet and to enjoy the several opportunities we can provide
+            you to encrease your company
+          </p>
         </div>
+      </section>
+      
+          <form action="">
+            <section class="form">
+              <label for="fname">First Name*</label>
+              <input type="text" required/>
+              <label for="lname">Last Name*</label>
+              <input type="text" required/>
+              <label for="title">Title</label>
+              <input type="text" />
+              <label for="Email">Email*</label>
+              <input type="email" placeholder="example@xxx.com" required/>
+              <label for="PNum">Phone Number*</label>
+              <input type="text" placeholder="xxx-xxxx-xxxx" />
+              <label for="bname">Business Name</label>
+              <input type="text" required/>
+              <label for="bweb">Business Website</label>
+              <input type="text" />
+              <label for="bAdrss">Business Adress</label>
+              <input type="text" />
+              <label for="bDes">Business Description</label>
+              <input type="text" />
+            </section>
+            <div class="submit">
+              <button type="submit"><a href="thank.html">Join</a></button>
+            </div>
+          </form>
+          <section class="buttons">
+            <div id="_4btn">
+              <button class="estandar" id="btn1">Non-Profit</button>
+              <button class="bronze" id="btn2">Bronze</button>
+              <button class="silver" id="btn3">Silver</button>
+              <button class="gold" id="btn4">Gold</button>
+            </div>
+            <div id="btn-span">
+              <div id="eDiv" class="exp">
+                <h2>Non-Profit</h2>
+                <p>Cost: $100</p>
+              </div>
+              <div id="bDiv" class="exp">
+                <h2>Bronze</h2>
+                <p>Cost: $200</p>
+              </div>
+              <div id="sDiv" class="exp">
+                <h2>Silver</h2>
+                <p>Cost: $400</p>
+              </div>
+              <div id="gDiv" class="exp">
+                <h2>Gold</h2>
+                <p>Cost: $1000</p>
+              </div>
+            </div>
+          </section>
         
     </main>
     <footer>
-        
-        <div id="date"></div>
-        <hr>
-        <p><a href="#">BYUI Online Learning</a> | <a href="https://www.inadem.gob.mx/puntos-de-la-red/camara-nacional-de-comercio-servicios-y-turismo-del-valle-de-toluca/">Lerma Chamber of Commerce</a></p>
-        <hr>
-        <p>&copy;2021 | Elena M. Barrera | Mexico</p>
+      <div id="date"></div>
+      <hr />
+      <p>
+        <a href="#">BYUI Online Learning</a> |
+        <a
+          href="https://www.inadem.gob.mx/puntos-de-la-red/camara-nacional-de-comercio-servicios-y-turismo-del-valle-de-toluca/"
+          >Lerma Chamber of Commerce</a
+        >
+      </p>
+      <hr />
+      <p>&copy;2021 | Elena M. Barrera | Mexico</p>
     </footer>
     <script src="js/toggleMenu.js"></script>
     <script src="js/weather.js"></script>
     <script src="js/date.js"></script>
     <script src="js/button.js"></script>
+  </body>
+</html>

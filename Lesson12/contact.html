@@ -28,28 +28,29 @@
       <section class="contact-grid">
         <div class="cont-info">
           <h1>Contact us!</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni pariatur aliquam architecto ullam similique, recusandae neque sit corporis exercitationem rem!</p>
+          <div>
+            <img src="images/adress.png" alt=""><p>Palacio Municipal, Plaza Juárez <br> No 1, Centro, 52000 <br> Lerma de Villada, Méx. <br> </p>
+            <img src="images/phone.png" alt=""><p>722 045 8937</p>
+          </div>
         </div>
-        <img src="images/placeholder.png" alt="" />
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120503.86801598743!2d-99.59041560492871!3d19.293414314973788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdf53fc7b892d3%3A0x1282a0bcfff2cf44!2sLerma%20de%20Villada%2C%20M%C3%A9x.!5e0!3m2!1ses!2smx!4v1617837651470!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
         <div class="cont-form">
           <h2>Do you have questions?</h2>
-          <form action="">
-            <div class="form-box">
-              <input type="text" placeholder="First Name" />
-            </div>
-            <div class="form-box">
-              <input type="text" placeholder="Last Name" />
-            </div>
-            <div class="form-box">
-              <input type="text" placeholder="Phone Number" />
-            </div>
-            <div class="form-box">
-              <input type="text" placeholder="email" />
-            </div>
-            <div class="form-box">
+          <form action=""></form>
+              <label for="fname">First Name</label>
+              <input type="text" required/>
+              <label for="lname">Last Name</label>
+              <input type="text"/>
+              <label for="pNum">Phone Number</label>
+              <input type="text" placeholder="xxx-xxx-xxxx" />
+              <label for="email">Email</label>
+              <input type="text" placeholder="examle@gmail.com" required/>
+              <label for="mesg">Tell us your questions</label>
               <textarea name="" id="" cols="30" rows="10"></textarea>
-            </div>
-            <div class="form-box"><button type="submit">Submit</button></div>
+            
+            <div class="form-box"><button type="submit"><a href="thank.html">Send Questions</a></button></div>
           </form>
         </div>
       </section>

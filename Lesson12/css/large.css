@@ -41,20 +41,21 @@ main.join .join-img {
 main.join section.form {
   justify-self: left;
 }
-/********* Contact us section *********/
-section.contact-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-}
+/********* Contact section ********/
 
-section.contact-grid .contc-info {
+section.contact-grid .cont-info {
   grid-template-columns: 1/2;
   grid-row: 1/2;
+  height: fit-content;
+  margin-left: 40px;
 }
-
-section.contact-grid img {
-  grid-column: 1/2;
-  grid-row: 2/3;
+section.contact-grid .cont-info img {
+  float: left;
+  width: 50px;
+  height: 60px;
+  margin: 0;
+}
+section.contact-grid .map iframe{
+  width: 580px;
 }
 }
